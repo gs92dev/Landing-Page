@@ -1,0 +1,49 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../Img/Background.jpg');
+  width: 100%;
+  height: 1000px;
+  background-size: contain;
+  background-repeat: no;
+}
+#container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+nav img {
+  width: 150px;
+  padding: 40px;
+  display: inline-block;
+}
+h1 {
+  font-style: Roboto, Arial;
+  font-size: large;
+  color: white;
+  font-weight: 1000;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin-top: 50px;
+  font-size: 40px;
+  width: 400px;
+}
+.menu a {
+  color: rgb(169, 238, 169);
+  text-decoration: none;
+  justify-content: center;
+}
+.name {
+  margin-top: 350px;
+  display: inline-block;
+  padding: 30px;
+  font-size: 8em;
+  width: 100%;
+  text-align: center;
+}
+.buton {
+  display: block;
+}
